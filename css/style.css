@@ -8,8 +8,105 @@
 body {
   height: 100dvh;
   font-family: lato;
+  box-sizing: border-box;
 }
 
-.highlight {
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.875rem;
+  margin: 1.125rem 5.125rem;
+}
+
+.logo-shipup {
+  display: flex;
+  align-items: center;
+}
+
+.logo-shipup img {
+  height: 2rem;
+  object-fit: contain;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1.875rem;
+  align-items: center;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-menu li a:hover {
   color: #f67366;
+}
+
+.btn {
+  padding: 0.9375rem;
+  text-decoration: none;
+  border-radius: 0.75rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn-join {
+  color: #ffffff;
+  background-color: #2c2d5b;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-request {
+  background-color: white;
+  color: #2c2d5b;
+  font-weight: bold;
+  border: 0.125rem solid #2c2d5b;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0rem 3.125rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  margin: 2.125rem;
+  gap: 3.125rem;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+}
+
+.hero-tittle-highlight {
+  color: #f67366;
+}
+
+.hero-description {
+  font-size: 0.875rem;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.875rem;
 }
