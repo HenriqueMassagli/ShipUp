@@ -79,7 +79,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0rem 3.125rem;
+  margin: 4.313rem 3.125rem;
 }
 
 .hero-content {
@@ -109,4 +109,84 @@ body {
 .hero-buttons {
   display: flex;
   gap: 1.875rem;
+}
+
+.form-area {
+  margin: 7.313rem;
+}
+
+.quote-form {
+  display: flex;
+  gap: 1.375rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.stylized-input {
+  border-radius: 0.75rem;
+  border: 0.025rem solid #979797;
+  padding: 1.25rem;
+}
+
+.btn-check-price {
+  background-color: #2c2d5b;
+  color: #ffffff;
+  border: 0;
+  font-weight: bolder;
+  padding: 1.75rem 3.625rem;
+}
+
+.services-title {
+  font-size: 1.5rem;
+  margin: 2.125rem;
+}
+
+.service-header-highlight {
+  font-weight: bold;
+  border-bottom: 0.188rem solid #f67366;
+}
+
+.services-flex {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-box {
+  width: 330px;
+  height: 187px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.service-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
